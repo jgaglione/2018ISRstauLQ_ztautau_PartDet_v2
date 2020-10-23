@@ -27,7 +27,7 @@ ApplyVBFSusyZBoostSF false # Weights derived by the VBF SUSY team - Run II
 isData false
 ApplyGenWeight  true
 
-ApplyL1PrefiringWeight true
+ApplyL1PrefiringWeight false
 UseJetEMPt false
 
 /// ------ Data-specific cuts ------///
@@ -46,8 +46,8 @@ GenDilepMassRange 80.0 100.0
 
 /// ------ Triggers ----- ///
 
-Trigger1FirstRequirement HLT_PFMET120_PFMHT120
-Trigger1SecondRequirement HLT_PFMET120_PFMHT120
+Trigger1FirstRequirement HLT_DoubleMediumChargedIsoPFTau
+Trigger1SecondRequirement HLT_DoubleMediumChargedIsoPFTauHPS
 UseTriggerWildcard true
 
 /// Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg

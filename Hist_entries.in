@@ -323,7 +323,7 @@ Muon1MetDeltaPhiVsDiMuonCosDphi   72  0   +3.15  220    -1.1    1.1
 
 //------------------------------------------------//
 
-FillDiTau 0
+FillDiTau 1
 
 DiTau_Tau1DiJetDeltaPhi          72     0    +3.15
 DiTau_Tau2DiJetDeltaPhi          72     0    +3.15
